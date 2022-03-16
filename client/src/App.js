@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Dates from './components/Dates';
 import Gallery from './components/Gallery';
 import Event from './components/Event';
+import Clubs from './components/Clubs';
 import Club from './components/Club';
 import Err404 from './components/Err404';
 
@@ -15,8 +16,9 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/dates' element={<Dates />} />
         <Route path='/gallery' element={<Gallery />} />
-        <Route path='/event/:eventID' element={<Event />} />
+        <Route path='/clubs' element={<Clubs />} />
         <Route path='/club/:clubID' element={<Club />} />
+        <Route path='/event/:eventID' element={<Event />} />
         <Route path='*' element={<Err404 />} />
       </Routes>
     </>
