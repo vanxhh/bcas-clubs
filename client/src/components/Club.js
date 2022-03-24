@@ -1,10 +1,23 @@
 import { useParams } from "react-router-dom";
-import data from "../data/clubs.json";
+import axios from 'axios';
+import { useState, useEffect } from 'react';
 
 const Club = () => {
 	const { clubID } = useParams();
-	const matchingClubs = data.data.filter(club => club.id === clubID)
-	const club = matchingClubs[0];
+	const [data, setData] = useState(null);
+
+	useEffect(() => {
+		axios.get('/api/clubs/')
+		.then(res => setData(res.data))
+		.catch(err => console.log(err));
+	}, []);
+	
+	let club;
+
+	if (data) {
+		const matchingClubs = data?.data.filter(club => club.id === clubID)
+		club = matchingClubs[0];
+	}
 
 	return (
 		<>

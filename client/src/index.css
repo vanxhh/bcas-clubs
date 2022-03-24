@@ -4,14 +4,6 @@
   font-weight: normal;
 }
 
-:root {
-  --black: #000;
-  --white: #fff;
-  --red: #c93939;
-  --pink: #ff90e8;
-  --yellow: #ffc900;
-}
-
 body {
   margin: 0;
   padding: 0;

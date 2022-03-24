@@ -1,34 +1,29 @@
 {
 	"data": [
 		{
-			"id": 1,
-			"photosLink": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
-			"thumbnail": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480",
-			"title": "Republic Day"
+			"name": "Republic Day",
+			"link": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
+			"image": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480"
 		},
 		{
-			"id": 2,
-			"photosLink": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
-			"thumbnail": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480",
-			"title": "Sarswati Puja"
+			"name": "Sarswati Puja",
+			"link": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
+			"image": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480"
 		},
 		{
-			"id": 3,
-			"photosLink": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
-			"thumbnail": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480",
-			"title": "Sports Day"
+			"name": "Sports Day",
+			"link": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
+			"image": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480"
 		},
 		{
-			"id": 4,
-			"photosLink": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
-			"thumbnail": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480",
-			"title": "Women's Day"
+			"name": "Women's Day",
+			"link": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
+			"image": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480"
 		},
 		{
-			"id": 5,
-			"photosLink": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
-			"thumbnail": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480",
-			"title": "Independence Day"
+			"name": "Independence Day",
+			"link": "https://photos.app.goo.gl/VX7ENXoGbQ22c1LMA",
+			"image": "https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480"
 		}
 	]
 }

@@ -4,71 +4,121 @@
 			"id": "club01",
 			"name": "Rage",
 			"club": "Dance Club",
-			"desc": "Rage is anger, anger is energy, energy is dance. The stage is awaiting. The RAGE is awaiting.",
-			"convener": "Dr. Alivia Roy"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Dr. Alivia Roy",
+			"join": "",
+			"logo": "",
+			"desc": "Rage is anger, anger is energy, energy is dance. The stage is awaiting. The RAGE is awaiting."
 		},
 		{
 			"id": "club02",
 			"name": "Confianza",
 			"club": "Debate Club",
-			"desc": "Confianza is the debating society of Bhaskaracharya College of Applied Sciences which provides an innovative platform to students to present their views and exquisitely explain their perspectives on the current political and social scenarios in the country as well as world. The debate club not only teaches one to merely be a good speaker but also a great thinker, to empower one to be able to convince people, with one's ideas and arguments.",
-			"convener": "Dr. Anjali Saxena"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Dr. Anjali Saxena",
+			"join": "",
+			"logo": "",
+			"desc": "Confianza is the debating society of Bhaskaracharya College of Applied Sciences which provides an innovative platform to students to present their views and exquisitely explain their perspectives on the current political and social scenarios in the country as well as world. The debate club not only teaches one to merely be a good speaker but also a great thinker, to empower one to be able to convince people, with one's ideas and arguments."
 		},
 		{
 			"id": "club03",
 			"name": "Darpan",
 			"club": "Dramatics Club",
-			"desc": "BCAS Dramatics Club 'Darpan' tries to bring forth this face of art to life using theater because we believe 'well performed well recieved'.",
-			"convener": "Mr. Rakesh"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Mr. Rakesh",
+			"join": "",
+			"logo": "",
+			"desc": "BCAS Dramatics Club 'Darpan' tries to bring forth this face of art to life using theater because we believe 'well performed well recieved'."
 		},
 		{
 			"id": "club04",
 			"name": "Pranahi",
 			"club": "Eco Club",
-			"desc": "Eco Club teaches the experience of beauty of life, beauty of nature and the very nature of biome.",
-			"convener": "Dr. Franky Varah"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Dr. Franky Varah",
+			"join": "",
+			"logo": "",
+			"desc": "Eco Club teaches the experience of beauty of life, beauty of nature and the very nature of biome."
 		},
 		{
 			"id": "club05",
 			"name": "",
 			"club": "Film Club",
-			"desc": "Films encourage ideas and social commentary within communities. Art, especially film, is important because it gives us the ability to form lasting human connections by letting us share our experiences. It can help us to better understand our own lives, the lives of those around us and even how our society and culture operate. The Film Club, BCAS aims to make and screen a wide range of films available to young people, which challenge, unite, educate, amaze, and inspire.",
-			"convener": "Dr. Shailja Singh"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Dr. Shailja Singh",
+			"join": "",
+			"logo": "",
+			"desc": "Films encourage ideas and social commentary within communities. Art, especially film, is important because it gives us the ability to form lasting human connections by letting us share our experiences. It can help us to better understand our own lives, the lives of those around us and even how our society and culture operate. The Film Club, BCAS aims to make and screen a wide range of films available to young people, which challenge, unite, educate, amaze, and inspire."
 		},
 		{
 			"id": "club06",
 			"name": "Akriti",
 			"club": "Fine Arts Club",
-			"desc": "Akriti - Fine Arts Club redefine the beauty of the art 'Art is not what you see but what you make others see'.",
-			"convener": "Dr. Premlata Meena"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Dr. Premlata Meena",
+			"join": "",
+			"logo": "",
+			"desc": "Akriti - Fine Arts Club redefine the beauty of the art 'Art is not what you see but what you make others see'."
 		},
 		{
 			"id": "club07",
 			"name": "Atelier",
 			"club": "Literary Club",
-			"desc": "Expression through rythmic flow of words is a powerful weapon when is intermingled with the power of knowledge.",
-			"convener": "Dr. Satyawati"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Dr. Satyawati",
+			"join": "",
+			"logo": "",
+			"desc": "Expression through rythmic flow of words is a powerful weapon when is intermingled with the power of knowledge."
 		},
 		{
 			"id": "club08",
 			"name": "Moksha",
 			"club": "Music Club",
-			"desc": "'The true beauty of music is that it connects people'. Moksha, the musical society of college provide students a platform to express the power of their thoughts and issues of interest in a melodious and lyrical accent by organizing several intra and inter-college activities round the year.",
-			"convener": "Dr. Shubhra Barwa"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Dr. Shubhra Barwa",
+			"join": "",
+			"logo": "",
+			"desc": "'The true beauty of music is that it connects people'. Moksha, the musical society of college provide students a platform to express the power of their thoughts and issues of interest in a melodious and lyrical accent by organizing several intra and inter-college activities round the year."
 		},
 		{
 			"id": "club09",
 			"name": "Clickerati",
 			"club": "Photography Club",
-			"desc": "The photography club of BCAS, Clickerati has been formed with an objective to provide guidance and platform to the young photographers in our college. Student members of the society are given an opportunity to cover all the major events organized in the college to nurture their creative and observational skills. Apart from this, the society organizes workshops, competitions and photo-walks time to time.",
-			"convener": "Dr. Umesh"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Dr. Umesh",
+			"join": "",
+			"logo": "",
+			"desc": "The photography club of BCAS, Clickerati has been formed with an objective to provide guidance and platform to the young photographers in our college. Student members of the society are given an opportunity to cover all the major events organized in the college to nurture their creative and observational skills. Apart from this, the society organizes workshops, competitions and photo-walks time to time."
 		},
 		{
 			"id": "club10",
 			"name": "",
 			"club": "Yoga Club",
-			"desc": "The overall purpose of yoga club of BCAS is to promote health and wellness bby organizing fun, stress relieving and educational activities.",
-			"convener": "Dr. Kapil Roy"
+			"president": "",
+			"vice_president": "",
+			"secretary": "",
+			"convenor": "Dr. Kapil Roy",
+			"join": "",
+			"logo": "",
+			"desc": "The overall purpose of yoga club of BCAS is to promote health and wellness bby organizing fun, stress relieving and educational activities."
 		}
 	]
 }

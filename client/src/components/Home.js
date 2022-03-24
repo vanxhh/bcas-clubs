@@ -1,6 +1,15 @@
-import data from '../data/clubs.json';
+import axios from 'axios';
+import { useState, useEffect } from 'react';
 
 const Home = () => {
+	const [data, setData] = useState(null);
+
+	useEffect(() => {
+		axios.get('/api/clubs/')
+		.then(res => setData(res.data))
+		.catch(err => console.log(err));
+	}, []);
+
 	return (
 		<main className=''>
       <section className='flex flex-col md:flex-row border-b-2 border-black'>
@@ -20,8 +29,8 @@ const Home = () => {
           <a href='/clubs'><div className='text-sm underline underline-offset-2'>See All</div></a>
         </div>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
-          {
-            data.data.slice(0, 4).map((club,) => (
+          {data &&
+            data.data.slice(0, 4).map((club) => (
               <a href={`club/${club.id}`}>
                 <div key={club.id} className='flex flex-col justify-center gap-2 border-2 border-black rounded cursor-pointer hover:shadow-[6px_6px_0_0_rgb(0,0,0)] hover:-translate-x-1 hover:-translate-y-1 hover:transition hover:duration-200 hover:ease-in-out'>
                   <div className='overflow-hidden'>
