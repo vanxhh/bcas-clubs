@@ -1,58 +1,28 @@
 {
 	"data": [
 		{
-			"id": "",
-			"date": "",
-			"month": "",
-			"day": ""
+			"id": "01",
+			"date": "12",
+			"month": "January",
+			"day": "Dummy Day 1"
 		},
 		{
-			"id": "",
-			"date": "",
-			"month": "",
-			"day": ""
+			"id": "02",
+			"date": "26",
+			"month": "January",
+			"day": "Republic Day"
 		},
 		{
-			"id": "",
-			"date": "",
-			"month": "",
-			"day": ""
+			"id": "03",
+			"date": "02",
+			"month": "April",
+			"day": "Dummy Day 2"
 		},
 		{
-			"id": "",
-			"date": "",
-			"month": "",
-			"day": ""
-		},
-		{
-			"id": "",
-			"date": "",
-			"month": "",
-			"day": ""
-		},
-		{
-			"id": "",
-			"date": "",
-			"month": "",
-			"day": ""
-		},
-		{
-			"id": "",
-			"date": "",
-			"month": "",
-			"day": ""
-		},
-		{
-			"id": "",
-			"date": "",
-			"month": "",
-			"day": ""
-		},
-		{
-			"id": "",
-			"date": "",
-			"month": "",
-			"day": ""
+			"id": "04",
+			"date": "15",
+			"month": "August",
+			"day": "Independence Day"
 		}
 	]
 }

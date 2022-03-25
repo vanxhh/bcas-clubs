@@ -19,8 +19,6 @@ const Club = () => {
 		event = matchingEvents[0];
 	}
 
-	console.log(event);
-
 	return (
 		<>
 		{event ?

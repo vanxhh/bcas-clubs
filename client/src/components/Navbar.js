@@ -30,7 +30,7 @@ const Navbar = () => {
 					<a href='/gallery' className='hidden md:inline'>
 						<div className='decoration-none hover:underline underline-offset-2'>Gallery</div>
 					</a>
-					<a href='/login' className='hidden md:inline-flex bg-black text-white h-full flex items-center justify-center w-20 hover:text-black hover:bg-white hover:border-2 border-black'>
+					<a href='/admin' className='hidden md:inline-flex bg-black text-white h-full flex items-center justify-center w-20 hover:text-black hover:bg-white hover:border-2 border-black'>
 						<div>Admin</div>
 					</a>
 					<svg x="0px" y="0px" width="24.75px" height="24.75px" viewBox="0 0 24.75 24.75" className={`md:hidden cursor-pointer transition ${isActive && 'rotate-90 transition'}`} onClick={handleHamburg}>
@@ -49,7 +49,7 @@ const Navbar = () => {
 					<a href='/gallery' className='text-lg'>
 						<div className=''>Gallery</div>
 					</a>
-					<a href='/login' className='text-lg'>
+					<a href='/admin' className='text-lg'>
 						<div>Admin</div>
 					</a>
 				</ul>

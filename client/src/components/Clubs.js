@@ -16,8 +16,8 @@ const Clubs = () => {
 			<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
 				{data && 
 					data.data.map((club) => (
-						<a href={`club/${club.id}`}>
-							<div key={club.id} className='flex flex-col justify-center gap-2 border-2 border-black rounded cursor-pointer hover:shadow-[6px_6px_0_0_rgb(0,0,0)] hover:-translate-x-1 hover:-translate-y-1 hover:transition hover:duration-200 hover:ease-in-out'>
+						<a href={`club/${club.id}`} key={club.id}>
+							<div className='flex flex-col justify-center gap-2 border-2 border-black rounded cursor-pointer hover:shadow-[6px_6px_0_0_rgb(0,0,0)] hover:-translate-x-1 hover:-translate-y-1 hover:transition hover:duration-200 hover:ease-in-out'>
 								<div className='overflow-hidden'>
 									<img src='https://image.freepik.com/free-vector/yellow-orange-gradient-abstract-background_53876-62624.jpg?w=480' alt='club' className='h-full w-full object-cover' />
 								</div>

@@ -13,8 +13,8 @@ const Dates = () => {
 				<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
 					{
 						dates.data.map(date => (
-							<div key={date.id} className='flex flex-col justify-center gap-2 border-2 border-black rounded cursor-pointer hover:shadow-[6px_6px_0_0_rgb(0,0,0)] hover:-translate-x-1 hover:-translate-y-1 hover:transition hover:duration-200 hover:ease-in-out'>
-								<p>Date - {date.date} / {date.month}</p>
+							<div key={date.id} className='p-2 flex flex-col justify-center gap-2 border-2 border-black rounded cursor-pointer hover:shadow-[6px_6px_0_0_rgb(0,0,0)] hover:-translate-x-1 hover:-translate-y-1 hover:transition hover:duration-200 hover:ease-in-out'>
+								<p>Date - {date.date} - {date.month}</p>
 								<p className='text-xl'>{date.day}</p>
 							</div>
 						))
@@ -29,7 +29,6 @@ const Dates = () => {
 						onChange={date => setSelectedDate(date)}
 					/>
 				</div>
-				{selectedDate && <p>hey</p>}
 			</section>
 		</main>
 	)
