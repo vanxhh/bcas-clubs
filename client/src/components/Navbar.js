@@ -30,6 +30,9 @@ const Navbar = () => {
 					<a href='/gallery' className='hidden md:inline'>
 						<div className='decoration-none hover:underline underline-offset-2'>Gallery</div>
 					</a>
+					<a href='/dates' className='hidden md:inline'>
+						<div className='decoration-none hover:underline underline-offset-2'>Dates</div>
+					</a>
 					<a href='/admin' className='hidden md:inline-flex bg-black text-white h-full flex items-center justify-center w-20 hover:text-black hover:bg-white hover:border-2 border-black'>
 						<div>Admin</div>
 					</a>
@@ -48,6 +51,9 @@ const Navbar = () => {
 					</a>
 					<a href='/gallery' className='text-lg'>
 						<div className=''>Gallery</div>
+					</a>
+					<a href='/dates' className='text-lg'>
+						<div className=''>Dates</div>
 					</a>
 					<a href='/admin' className='text-lg'>
 						<div>Admin</div>

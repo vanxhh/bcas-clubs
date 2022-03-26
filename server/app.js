@@ -1,11 +1,11 @@
+require('dotenv').config();
+
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const cors = require('cors');
 
-// const MONGOOSE_URL = 'mongodb+srv://sourabh:zD350B9mie3yNM9X@cluster0.k6pjr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
-
-const MONGOOSE_URL = 'mongodb+srv://bcasclubs:bcasclubs7@cluster0.cumy0.mongodb.net/bcasclubs?retryWrites=true&w=majority';
+const MONGOOSE_URL = `mongodb+srv://${process.env.MONGOOSE_USERNAME}:${process.env.MONGOOSE_PASSWORD}@cluster0.cumy0.mongodb.net/bcasclubs?retryWrites=true&w=majority`;
 
 mongoose.connect(MONGOOSE_URL, { useNewUrlParser: true, useUnifiedTopology: true });
 
