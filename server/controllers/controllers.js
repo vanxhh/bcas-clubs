@@ -1,6 +1,4 @@
 const express = require("express");
-const ObjectID = require('mongoose').ObjectID;
-
 const Club = require("../models/clubs.js");
 const Event = require("../models/events.js");
 const Photo = require("../models/photos.js");
@@ -45,25 +43,10 @@ const getAdmins = async (req, res) => {
   }
 }
 
-const postEvent = async (req, res) => {
-  try {
-    const event = new Event({ ...req.query.formData, _id: new ObjectID() });
-    event.save(function (err, event) {
-      if (err) {
-        console.log(err);
-      }
-    })
-    res.status(200);
-  } catch (error) {
-    res.status(404);
-  }
-}
-
 module.exports = {
   router: router,
   getClubs: getClubs,
   getEvents: getEvents,
   getPhotos: getPhotos,
   getAdmins: getAdmins,
-  postEvent: postEvent,
 };

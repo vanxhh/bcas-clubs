@@ -13,6 +13,11 @@ const Admin = () => {
 						<p className='text-base md:text-lg lg:text-xl'>Delete an Event</p>
 					</div>
 				</a>
+				<a href='/admin/register/feedback'>
+					<div className='p-2 border-2 border-black rounded cursor-pointer hover:shadow-[6px_6px_0_0_rgb(0,0,0)] hover:-translate-x-1 hover:-translate-y-1 hover:transition hover:duration-200 hover:ease-in-out'>
+						<p className='text-base md:text-lg lg:text-xl'>Feedback/Report for a event</p>
+					</div>
+				</a>
 			</div>
 		</main>
 	)

@@ -30,7 +30,7 @@ const Club = () => {
 					<div className='flex flex-col gap-2'>
 						<h1 className='text-2xl md:text-3xl'>{club.name !== "" ? club.name : club.club}</h1>
 						<p className='text-base md:text-lg'>{club.desc}</p>
-						<p className='text-sm md:text-base'> Convener - {club.convener}</p>
+						<p className='text-sm md:text-base'> Convenor - {club.convener}</p>
 					</div>
 				</section>
 				<section className='flex gap-4'>

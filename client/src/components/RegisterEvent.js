@@ -7,11 +7,20 @@ const RegisterEvent = () => {
 	const [formData, setFormData] = useState({
 		name: "",
 		organizer: "",
-		cheif_guest: "",
+		chief_guest: "",
 		desc: "",
 		timing: "",
 		poster: "",
 		part_link: "",
+		clubName: "",
+		date: "",
+		topic: "",
+		resource: "",
+		qualifications: "",
+		valuepoint1: "",
+		valuepoint2: "",
+		valuepoint3: "",
+		numParticipants: ""
 	});
 
 	const adminSubmit = (event) => {
@@ -30,8 +39,8 @@ const RegisterEvent = () => {
 
 	const handleSumbit = (event) => {
 		event.preventDefault();
-		axios.post('/api/eventpost/', {}, { params: { formData: formData }})
-		.then(res => res.status)
+		axios.post('/api/eventpost/', { params: { formData: formData }})
+		.then(res => res)
 		.catch(err => console.error(err));
 	}
 	
@@ -89,8 +98,8 @@ const RegisterEvent = () => {
 							<input
 								className='border-2 border-black rounded w-full p-1 md:w-1/2 md:p-2'
 								type='text'
-								name='cheif_guest'
-								value={formData.cheif_guest}
+								name='chief_guest'
+								value={formData.chief_guest}
 								onChange={(e) => handleChange(e)}
 								placeholder="Chief Guest"
 							/>

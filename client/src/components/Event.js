@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 const Club = () => {
 	const { eventID } = useParams();
 	const [data, setData] = useState(null);
+	const [opened, setOpened] = useState(false);
 
 	useEffect(() => {
 		axios.get('/api/events/')
@@ -18,6 +19,8 @@ const Club = () => {
 		const matchingEvents = data?.data.filter(event => event._id === eventID)
 		event = matchingEvents[0];
 	}
+
+	const toggle = () => setOpened(prev => !prev)
 
 	return (
 		<>
@@ -39,7 +42,22 @@ const Club = () => {
 					<a href={event.part_link}>
 						<button className='text-sm md:text-base lg:text-lg p-2 border-2 border-black rounded bg-black text-white hover:bg-white hover:text-black'>Register</button>
 					</a>
+					<button className='text-sm md:text-base lg:text-lg p-2 border-2 border-black rounded text-black' onClick={toggle}>{opened ? "Hide Report/Feedback" : "View Report/Feedback"}</button>
 				</section>
+				{opened &&
+					<section className='mt-8'>
+						<h1 className='text-2xl md:text-3xl mb-2'>Report / Feedback</h1>
+						<div className="text-base md:text-lg">
+							The event {event.name}, has been organised by {event.clubName} on {event.date} on the topic {event.topic}. The resource person for the event is {event.resource}, has done their {event.qualifications}. The value points shared by them are as follows:
+							<ul>
+								<li>{event.valuepoint1}</li>
+								<li>{event.valuepoint2}</li>
+								<li>{event.valuepoint3}</li>
+							</ul>
+							The event successfully occurred and {event.numParticipants} people participated with lots of enthusiasm.
+						</div>
+					</section> 
+				}
 			</main>
 			:
 			<main className='p-4 md:p-8 text-lg md:text-xl lg:text-2xl'>

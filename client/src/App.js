@@ -9,6 +9,7 @@ import Events from './components/Events';
 import Event from './components/Event';
 import Admin from './components/Admin';
 import RegisterEvent from './components/RegisterEvent';
+import RegisterFeedback from './components/RegisterFeedback';
 import Err404 from './components/Err404';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/event/:eventID' element={<Event />} />
         <Route path='/admin' element={<Admin />} />
         <Route path='/admin/register' element={<RegisterEvent />} />
+        <Route path='/admin/register/feedback' element={<RegisterFeedback />} />
         <Route path='*' element={<Err404 />} />
       </Routes>
     </>
