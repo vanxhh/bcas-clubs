@@ -6,6 +6,7 @@ const ObjectID = require('mongodb').ObjectID;
 const bodyparser = require('body-parser');
 const path = require('path');
 const cors = require('cors');
+const favicon = require('express-favicon');
 
 const MONGOOSE_URL = `mongodb+srv://${process.env.MONGOOSE_USERNAME}:${process.env.MONGOOSE_PASSWORD}@cluster0.cumy0.mongodb.net/bcasclubs?retryWrites=true&w=majority`;
 
@@ -22,6 +23,7 @@ const router = require("./routes/routes.js");
 app.use('/api', router)
 	.use(express.static(path.join(__dirname, '../client/build')))
 	.use(cors())
+	.use(favicon(path.join(__dirname, '../client/build/favicon.ico')))
 	.use(bodyparser.urlencoded({
 		extended: true,
 		limit: '50mb',
