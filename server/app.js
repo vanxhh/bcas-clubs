@@ -17,7 +17,7 @@ const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 const router = require("./routes/routes.js");
 
 app.use('/api', router)
