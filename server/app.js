@@ -8,7 +8,7 @@ const path = require('path');
 const cors = require('cors');
 const favicon = require('express-favicon');
 
-const MONGOOSE_URL = `mongodb+srv://${process.env.MONGOOSE_USERNAME}:${process.env.MONGOOSE_PASSWORD}@cluster0.cumy0.mongodb.net/bcasclubs?retryWrites=true&w=majority`;
+const MONGOOSE_URL = `mongodb://${process.env.MONGOOSE_USERNAME}:${process.env.MONGOOSE_PASSWORD}@cluster0.cumy0.mongodb.net/bcasclubs?retryWrites=true&w=majority`;
 
 mongoose.connect(MONGOOSE_URL, { useNewUrlParser: true, useUnifiedTopology: true });
 
