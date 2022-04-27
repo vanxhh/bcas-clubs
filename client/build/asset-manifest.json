@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a7b3a3c.css",
+    "main.js": "/static/js/main.cea48bd4.js",
+    "static/media/mabry-regular-pro.ttf": "/static/media/mabry-regular-pro.c59adb94acd426ecc4a8.ttf",
+    "index.html": "/index.html",
+    "main.3a7b3a3c.css.map": "/static/css/main.3a7b3a3c.css.map",
+    "main.cea48bd4.js.map": "/static/js/main.cea48bd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a7b3a3c.css",
+    "static/js/main.cea48bd4.js"
+  ]
+}
